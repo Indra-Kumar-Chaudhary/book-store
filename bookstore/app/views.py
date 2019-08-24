@@ -6,3 +6,6 @@ from django.http import HttpRequest
 def index(request):
     
     return render(request,'app_templates/index.html')
+
+def loginView(reques):
+    return render(request)
