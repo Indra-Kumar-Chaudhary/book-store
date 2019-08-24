@@ -9,3 +9,6 @@ def index(request):
 
 def loginView(reques):
     return render(request)
+
+def registerView(request):
+    return render(request)
