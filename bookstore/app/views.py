@@ -12,3 +12,6 @@ def loginView(reques):
 
 def registerView(request):
     return render(request)
+
+def logout(request):
+    return render(request)
