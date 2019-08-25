@@ -6,3 +6,6 @@ from django.http import HttpRequest
 def index(request):
     
     return render(request,'app_templates/index.html')
+
+def app(request):
+    return HttpResponse("ok")
